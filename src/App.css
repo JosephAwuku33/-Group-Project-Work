@@ -1,0 +1,7 @@
+.App {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
