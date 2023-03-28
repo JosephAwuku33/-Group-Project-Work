@@ -1,10 +1,11 @@
 import './App.css'
+import InstagramLogin from './InstagramLogin'
 
 function App() {
   
   return (
     <div className="App">
-      <p>Start Work</p>
+      <InstagramLogin />
     </div>
   )
 }
