@@ -1,0 +1,86 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  /* header */
+  .header {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 15px;
+  }
+
+  .btn_insta_icon{
+    background-color: wheat;
+    border-radius: 30px;
+    padding: 5px;
+    outline: none;
+  }
+  /* Navbar links */
+  .navbar__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    margin-left: 4rem;
+    padding: 0;
+  }
+  
+  /* Navbar link */
+  .navbar__links li {
+    margin: 0 1rem ;
+  }
+  
+  /* Navbar link (hover) */
+  .navbar__links li:hover {
+    background-color: #ddd;
+  }
+
+  .btn {
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    padding:auto;
+    width: 74px;
+    height: 40px;
+    margin-left: 3rem;
+    border-radius: 5px;
+    background-color: black;
+  }
+
+  .btn:hover{
+    background-color: violet;
+    color: white;
+  }
+  
+  /* Navbar link anchor */
+  .navbar__links li a {
+    color: slateblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Navbar link anchor (hover) */
+  .navbar__links li a:hover {
+    color: #666;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    /* Navbar links */
+    .navbar__links {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    /* Navbar link */
+    .navbar__links li {
+      margin: 1rem 0;
+    }
+  }
+  

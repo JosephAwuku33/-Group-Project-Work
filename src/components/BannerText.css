@@ -1,0 +1,73 @@
+.banner_text{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.text1 {
+    font-weight: bolder;
+    font-size: 30pt;
+    color:darkred;
+    font-weight: 900;
+    line-height: 84px;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.text2 {
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.btn_like{
+    color:white;
+    background-color: #3F70FE;
+    margin: 10px;
+    border-radius: 10px;
+    width: 124px;
+    height: 46px;
+    border-color: #3F70FE;
+}
+
+.btn_like:hover{
+    background-color: tomato;
+    color: black;
+}
+
+.btn_views{
+    color: white;
+    background-color: #FF1951;
+    margin: 10px;
+    border-radius: 10px;
+    width: 96px;
+    height: 46px;
+    border-color: #FF1951;
+}
+
+.btn_views:hover{
+    background-color: aqua;
+    color:black;
+}
+
+.btn_followers{
+    color:black;
+    background-color: #FFD440;
+    margin: 10px;
+    border-radius: 10px;
+    width: 96px;
+    height: 46px;
+    border-color: #FFD440;
+}
+
+.btn_followers:hover {
+    background-color: brown;
+    color: white
+}
+
+
+
