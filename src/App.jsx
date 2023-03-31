@@ -1,5 +1,5 @@
 import './App.css'
-import InstagramLogin from './InstagramLogin'
+import InstagramLogin from '../src/pages/InstagramLogin'
 
 function App() {
   
