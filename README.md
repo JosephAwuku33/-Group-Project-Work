@@ -10,3 +10,11 @@ An Instagram Landing Page , Login page and Signup page with React.js
 - React Router Dom was used to improve usage of the site and its page through navigation.
 - Vite.js was used to gain smoother workflow during the development and to allow hot reload, improving the overall experience.
 
+## Authors
+
+- [@Carlton001](https://github.com/Carlton001)
+- [@Kenny-skv](https://github.com/Kenny-skv)
+- [@SunfredShun](https://github.com/SunfredShun)
+- [@JosephAwuku33](https://github.com/JosephAwuku33)
+
+
